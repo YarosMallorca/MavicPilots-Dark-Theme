@@ -1,0 +1,19 @@
+.p-pageWrapper {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.p-pageWrapper img,
+.p-pageWrapper picture,
+.p-pageWrapper video,
+.fr-select-color,
+.bbMediaWrapper,
+.menu,
+.menu img,
+.tooltip-content,
+.tooltip-content img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+img[src="/styles/drift/mp_images/mp_120x56.png"] {
+  filter: invert(0) hue-rotate(0deg);
+}

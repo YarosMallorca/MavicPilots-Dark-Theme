@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popup</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster:400|Raleway:300,400,500&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+        margin: 0px !important;
+    }
+
+    .popup {
+        min-width: 344px;
+        min-height: 210px;
+        background: #131313;
+    }
+
+    h2,
+    p {
+        color: white;
+        font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+    }
+
+    .toggle {
+        position: relative;
+        display: inline-block;
+        width: 90px;
+        height: 48px;
+        background-color: white;
+        border-radius: 30px;
+        border: 2px solid gray;
+    }
+
+    .toggle:after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: gray;
+        top: 4px;
+        left: 4px;
+        transition: all 0.3s;
+    }
+
+    .checkbox:checked+.toggle::after {
+        left: 44px;
+    }
+
+    /* Checkbox checked toggle label bg color */
+    .checkbox:checked+.toggle {
+        background-color: #131313;
+    }
+
+    /* Checkbox vanished */
+    .checkbox {
+        display: none;
+    }
+</style>
+
+<body>
+    <div class="popup">
+        <h2 style="margin-top:auto; padding-top:10px; text-align: center;">MavicPilots Dark Theme</h2>
+        <div style="margin: auto; width: 220px">
+            <div style="display: flex;">
+                <img width=50px src="https://www.svgrepo.com/show/889/sun.svg"
+                    style="filter: invert(1); padding-right: 15px;">
+                <div>
+                    <input type="checkbox" id="themeSwitch" class="checkbox button" />
+                    <label for="themeSwitch" class="toggle"></label>
+                </div>
+                <img width=45px src="https://www.svgrepo.com/show/44458/moon.svg"
+                    style="filter: invert(1); padding-left: 15px;">
+            </div>
+        </div>
+        <div style="margin: auto; width: 200px; padding-top:20px;">
+            <div style="display: flex;">
+                <a target="_blank" href="https://github.com/YarostheLaunchpadder/MavicPilots-Dark-Theme">
+                    <img width=30px src="https://www.svgrepo.com/show/341847/github.svg"
+                        style="filter: invert(1); padding-right: 5px;"></a>
+                <p style="text-align: center; margin: auto;">Developed by Yaros</p>
+            </div>
+        </div>
+    </div>
+    <script src="./popup.js">
+    </script>
+
+</body>
+
+</html>

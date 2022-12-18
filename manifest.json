@@ -1,0 +1,27 @@
+{
+  "short_name": "Mavic Pilots Dark",
+  "name": "Mavic Pilots Dark Theme",
+  "description": "Unofficial Dark Theme for the Mavic Pilots Forum.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "https://www.mavicpilots.com/*",
+    "https://mavicpilots.com/*"
+  ],
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "icons/logo-16.png",
+    "48": "icons/logo-48.png",
+    "128": "icons/logo-128.png"
+  },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Mavic Pilots Dark Theme",
+    "default_popup": "popup.html"
+  },
+  "version": "0.9"
+}
