@@ -1,15 +1,26 @@
 # MavicPilots-Dark-Theme [BETA]
 
  A Dark Theme of Mavic Pilots forum in a Chrome Extension!
+ 
+ > **NOTE:** This Chrome Extension is under development, it isn't stable yet.
+
+<img src="https://user-images.githubusercontent.com/54041533/209441427-86550f1b-4b24-4922-9d5c-02af05641f3b.png" width=500x></img>
+
+<img src="https://user-images.githubusercontent.com/54041533/209441472-cd28f0c5-f661-4326-89a6-87c2b735e461.png" width=250px></img>
+
 
 ## How to Install
 
-1. Download the ZIP file here
-2. Unzip the archive in a known location
-3. Open google chrome and type `chrome://extensions/` in the adderss bar
+1. Download latest version ZIP file <a href="https://github.com/YarostheLaunchpadder/MissionPlanner-to-Litchi/archive/refs/heads/main.zip">here</a>
+2. Unzip the archive in a known location (for example, your Documents folder)
+3. Open google chrome and type `chrome://extensions/` in the adderss bar, press enter
 4. Turn on Developer mode (switch in the top right of the page)
 5. Click *Load Unpacked* and select the folder you unzipped to earlier
 6. Use the extension's pop-up to switch to dark mode (click on the extension in the extension list, top right of the browser, puzzle icon).
+
+## Compatibility
+
+Currently, this extension has been only tested on Chrome, but it may work on other browsers. 
 
 ## Known Issues
 
