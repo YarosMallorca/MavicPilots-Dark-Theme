@@ -1,4 +1,6 @@
-# MavicPilots-Dark-Theme [BETA]
+# MavicPilots-Dark-Theme [ARCHIVED]
+
+This has been archived due to the official implementation of dark mode to the website: https://mavicpilots.com/account/preferences
 
  A Dark Theme of Mavic Pilots forum in a Chrome Extension!
  
